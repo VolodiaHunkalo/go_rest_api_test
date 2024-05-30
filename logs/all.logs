@@ -1,0 +1,16 @@
+2024/05/30 17:14:02 Orders API Called
+2024/05/30 17:15:14 Orders API Called
+2024/05/30 17:15:42 Orders API Called
+2024/05/30 17:16:26 Orders API Called
+2024/05/30 17:16:48 Orders API Called
+2024/05/30 17:18:30 Orders API Called
+2024/05/30 17:19:40 Orders API Called
+2024/05/30 17:19:51 Orders API Called
+2024/05/30 17:20:14 Orders API Called
+2024/05/30 17:20:47 Orders API Called
+2024/05/30 17:22:02 Orders API Called
+2024/05/30 17:23:30 Orders API Called
+2024/05/30 17:24:24 Orders API Called
+2024/05/30 17:24:47 Orders API Called
+time="2024-05-30T17:24:47+03:00" level=info msg="router register..." func="main.main()" file="app.go:14"
+time="2024-05-30T17:24:47+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:17"
