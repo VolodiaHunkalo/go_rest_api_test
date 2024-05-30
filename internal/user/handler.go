@@ -5,6 +5,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"net/http"
 	"rest_api/internal/handlers"
+	"rest_api/pkg/logging"
 )
 
 const (
@@ -13,6 +14,7 @@ const (
 )
 
 type handler struct {
+	logger logging.Logger
 }
 
 func HandlerImpl() handlers.Handler {
