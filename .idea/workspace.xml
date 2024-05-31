@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c6ba6f-c606-4ca8-9ca4-4f63916e1625" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/config/config.go" afterDir="false" />
+    <list default="true" id="d3c6ba6f-c606-4ca8-9ca4-4f63916e1625" name="Changes" comment="add config">
+      <change afterPath="$PROJECT_DIR$/internal/user/db/mongodb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/client/mongodb/mongodb.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/main/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main/app.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/user/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/user/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all.logs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/logging/logging.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/logging/logging.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/user/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/user/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/user/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/user/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/user/storage.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/user/storage.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
