@@ -36,15 +36,15 @@ type Logger struct {
 	*logrus.Entry
 }
 
-func GetLogger() Logger {
+func GetLogger() *Logger {
 	if e == nil {
 		panic("Logger not initialized")
 	}
-	return Logger{e}
+	return &Logger{e}
 }
 
-func (l *Logger) GetLoggerWithField(key string, value interface{}) Logger {
-	return Logger{l.WithField(key, value)}
+func (l *Logger) GetLoggerWithField(key string, value interface{}) *Logger {
+	return &Logger{l.WithField(key, value)}
 }
 
 func init() {
@@ -59,7 +59,7 @@ func init() {
 		FullTimestamp: true,
 	})
 
-	err := os.MkdirAll("log", 0755)
+	err := os.MkdirAll("logs", 0755)
 	if err != nil {
 		panic(err)
 	}

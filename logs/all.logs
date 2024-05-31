@@ -1,16 +1,58 @@
-2024/05/30 17:14:02 Orders API Called
-2024/05/30 17:15:14 Orders API Called
-2024/05/30 17:15:42 Orders API Called
-2024/05/30 17:16:26 Orders API Called
-2024/05/30 17:16:48 Orders API Called
-2024/05/30 17:18:30 Orders API Called
-2024/05/30 17:19:40 Orders API Called
-2024/05/30 17:19:51 Orders API Called
-2024/05/30 17:20:14 Orders API Called
-2024/05/30 17:20:47 Orders API Called
-2024/05/30 17:22:02 Orders API Called
-2024/05/30 17:23:30 Orders API Called
-2024/05/30 17:24:24 Orders API Called
-2024/05/30 17:24:47 Orders API Called
-time="2024-05-30T17:24:47+03:00" level=info msg="router register..." func="main.main()" file="app.go:14"
-time="2024-05-30T17:24:47+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:17"
+2024/05/31 11:33:23 Orders API Called
+time="2024-05-31T11:33:23+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:33:23+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:33:23+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:33:23+03:00" level=info msg="create tcp socket" func="main.start()" file="app.go:54"
+time="2024-05-31T11:33:23+03:00" level=fatal msg="listen tcp: lookup tcp/ %!s(int=10000): unknown port" func="main.start()" file="app.go:57"
+2024/05/31 11:36:35 Orders API Called
+time="2024-05-31T11:36:35+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:36:35+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:36:35+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:36:35+03:00" level=info msg="create tcp socket" func="main.start()" file="app.go:54"
+time="2024-05-31T11:36:35+03:00" level=info msg="server is listening port 0.0.0.0: 10000" func="main.start()" file="app.go:67"
+2024/05/31 11:40:47 Orders API Called
+time="2024-05-31T11:40:47+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:40:47+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:40:47+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:40:47+03:00" level=info msg="create tcp socket" func="main.start()" file="app.go:54"
+time="2024-05-31T11:40:47+03:00" level=info msg="server is listening port 0.0.0.0: 10000" func="main.start()" file="app.go:67"
+2024/05/31 11:41:34 Orders API Called
+time="2024-05-31T11:41:34+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:41:34+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:41:34+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:41:34+03:00" level=info msg="create tcp socket" func="main.start()" file="app.go:54"
+time="2024-05-31T11:41:34+03:00" level=info msg="server is listening port 0.0.0.0: 10000" func="main.start()" file="app.go:59"
+2024/05/31 11:41:45 Orders API Called
+time="2024-05-31T11:41:45+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:41:45+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:41:45+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:41:45+03:00" level=info msg="start sock server at /Users/volodiahunkalo/Downloads/development/rest_api/build" func="main.start()" file="app.go:43"
+time="2024-05-31T11:41:45+03:00" level=debug msg="socket path: /Users/volodiahunkalo/Downloads/development/rest_api/build/app.sock" func="main.start()" file="app.go:45"
+time="2024-05-31T11:41:45+03:00" level=info msg="create unix socket" func="main.start()" file="app.go:47"
+2024/05/31 11:43:45 Orders API Called
+time="2024-05-31T11:43:45+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:43:45+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:43:45+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:43:45+03:00" level=info msg="start sock server at /Users/volodiahunkalo/Downloads/development/rest_api/build" func="main.start()" file="app.go:43"
+time="2024-05-31T11:43:45+03:00" level=debug msg="socket path: /Users/volodiahunkalo/Downloads/development/rest_api/build/app.sock" func="main.start()" file="app.go:45"
+time="2024-05-31T11:43:45+03:00" level=fatal msg="<nil>" func="main.start()" file="app.go:49"
+2024/05/31 11:44:13 Orders API Called
+time="2024-05-31T11:44:13+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:44:13+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:44:13+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:44:13+03:00" level=info msg="start sock server at /Users/volodiahunkalo/Downloads/development/rest_api/build" func="main.start()" file="app.go:43"
+time="2024-05-31T11:44:13+03:00" level=debug msg="socket path: /Users/volodiahunkalo/Downloads/development/rest_api/build/app.sock" func="main.start()" file="app.go:45"
+time="2024-05-31T11:44:13+03:00" level=fatal msg="<nil>" func="main.start()" file="app.go:49"
+2024/05/31 11:44:56 Orders API Called
+time="2024-05-31T11:44:56+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:44:56+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:44:56+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:44:56+03:00" level=info msg="start sock server at /Users/volodiahunkalo/Downloads/development/rest_api/build" func="main.start()" file="app.go:43"
+time="2024-05-31T11:44:56+03:00" level=debug msg="socket path: /Users/volodiahunkalo/Downloads/development/rest_api/build/app.sock" func="main.start()" file="app.go:45"
+time="2024-05-31T11:44:56+03:00" level=fatal msg="<nil>" func="main.start()" file="app.go:49"
+2024/05/31 11:45:05 Orders API Called
+time="2024-05-31T11:45:05+03:00" level=info msg="router register..." func="main.main()" file="app.go:20"
+time="2024-05-31T11:45:05+03:00" level=info msg="Loading configuration" func="rest_api/internal/config.GetConfig()" file="config.go:23"
+time="2024-05-31T11:45:05+03:00" level=info msg="register user handler..." func="main.main()" file="app.go:23"
+time="2024-05-31T11:45:05+03:00" level=info msg="create tcp socket" func="main.start()" file="app.go:54"
+time="2024-05-31T11:45:05+03:00" level=info msg="server is listening port 0.0.0.0: 10000" func="main.start()" file="app.go:59"

@@ -14,11 +14,11 @@ const (
 )
 
 type handler struct {
-	logger logging.Logger
+	logger *logging.Logger
 }
 
-func HandlerImpl() handlers.Handler {
-	return &handler{}
+func HandlerImpl(logger *logging.Logger) handlers.Handler {
+	return &handler{logger: logger}
 }
 
 func (h *handler) Register(router *httprouter.Router) {
